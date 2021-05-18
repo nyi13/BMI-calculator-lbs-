@@ -1,0 +1,6 @@
+#BMI Calculator in imperial format
+
+weight = input("Enter your weight in lbs ===> ")
+height = input("Enter your height in inches ===> ")
+BMI = (int(weight) / (int(height) ** 2)) * 703
+print ("Your BMI is ===> " + str(BMI))
